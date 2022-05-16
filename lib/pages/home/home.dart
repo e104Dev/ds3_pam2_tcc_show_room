@@ -1,5 +1,6 @@
 import 'package:ds3_pam2_tcc_show_room/pages/contact/contact.dart';
 import 'package:ds3_pam2_tcc_show_room/pages/home/sample.dart';
+import 'package:ds3_pam2_tcc_show_room/pages/show_music/show_music.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -12,6 +13,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   var pages = [
     Container(color: Colors.yellow),
+    const ShowMusic(),
     const SamplePage(),
     const ContactPage(),
   ];
