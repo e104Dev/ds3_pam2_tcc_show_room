@@ -1,4 +1,4 @@
-import 'package:ds3_pam2_tcc_show_room/pages/detail/detail.dart';
+import 'package:ds3_pam2_tcc_show_room/pages/de-tec-pra-tec/de_tec_pra_tec.dart';
 import 'package:flutter/material.dart';
 
 class SamplePage extends StatelessWidget {
@@ -53,7 +53,7 @@ class SamplePage extends StatelessWidget {
                         onPressed: () {
                           Navigator.of(context).push(
                             MaterialPageRoute(
-                              builder: ((context) => DetailPage(index: index)),
+                              builder: ((context) => DeTecPraTecPage(index: index)),
                             ),
                           );
                         },
