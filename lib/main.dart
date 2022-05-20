@@ -13,7 +13,7 @@ class TccApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.deepOrange),
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }
