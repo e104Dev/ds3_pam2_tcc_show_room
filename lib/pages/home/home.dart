@@ -12,6 +12,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   var pages = [
+    Container(color: Colors.yellow),
     const PartipacaPage(),
     const SamplePage(),
     const ContactPage(),
