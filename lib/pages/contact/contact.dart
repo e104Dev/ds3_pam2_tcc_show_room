@@ -29,6 +29,7 @@ class _ContactPageState extends State<ContactPage> {
             padding: const EdgeInsets.symmetric(vertical: 4, horizontal: 16),
             child: const TextField(
               decoration: InputDecoration(
+                filled: true,
                 label: Text('Nome'),
                 hintText: 'Nome',
               ),
@@ -38,6 +39,7 @@ class _ContactPageState extends State<ContactPage> {
             padding: const EdgeInsets.symmetric(vertical: 4, horizontal: 16),
             child: const TextField(
               decoration: InputDecoration(
+                filled: true,
                 label: Text('Email'),
                 hintText: 'Seu email pessoal',
               ),
@@ -48,6 +50,7 @@ class _ContactPageState extends State<ContactPage> {
             child: const TextField(
               maxLines: 3,
               decoration: InputDecoration(
+                filled: true,
                 label: Text('Conteúdo'),
                 hintText: 'Conta pra gente o que você quiser!',
               ),

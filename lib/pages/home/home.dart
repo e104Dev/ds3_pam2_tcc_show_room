@@ -1,6 +1,6 @@
 import 'package:ds3_pam2_tcc_show_room/pages/contact/contact.dart';
 import 'package:ds3_pam2_tcc_show_room/pages/home/sample.dart';
-import 'package:ds3_pam2_tcc_show_room/pages/show_music/show_music.dart';
+import 'package:ds3_pam2_tcc_show_room/participacao/participacao.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -13,7 +13,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   var pages = [
     Container(color: Colors.yellow),
-    const ShowMusic(),
+    const PartipacaPage(),
     const SamplePage(),
     const ContactPage(),
   ];
@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         flexibleSpace: Container(
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
             gradient: LinearGradient(
               colors: [
                 Colors.deepOrange,
