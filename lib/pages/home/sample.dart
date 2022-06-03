@@ -24,7 +24,7 @@ class SamplePage extends StatelessWidget {
       //   ],
       // ),
       body: ListView.builder(
-          itemCount: 100,
+          itemCount: 4,
           itemBuilder: (contexto, index) {
             return Card(
               clipBehavior: Clip.antiAlias,
